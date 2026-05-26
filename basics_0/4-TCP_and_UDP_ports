@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays all listening ports with PID and program name
+
+netstat -tulnp
