@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script displays all active IPv4 addresses on the machine
 
-ipconfig | grep -w "inet" | awk '{print $2}'
+ipconfig | grep "inet" | awk '{print $2}'
